@@ -1,5 +1,11 @@
-import React, { useState, useEffect } from 'react';
-import { View, FlatList, StyleSheet, ActivityIndicator } from 'react-native';
+import React, { useState, useEffect, useRef } from 'react';
+import {
+  View,
+  FlatList,
+  StyleSheet,
+  ActivityIndicator,
+  RefreshControl,
+} from 'react-native';
 import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
@@ -15,30 +21,49 @@ const NewsFeedScreen = ({ navigation }) => {
   const { t } = useTranslation();
   const [newsData, setNewsData] = useState([]);
   const { latest } = useNewsDataApiClient(NEWS_API_KEY);
-  const {language,locationEnglish} = useSelector(state => state.user);
+  const { language, locationEnglish } = useSelector(state => state.user);
   const [didFethched, setDidFetched] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
+  const [isRefreshing, setIsRefreshing] = useState(false);
+  const newsCache = useRef({});
   console.log('language', language);
 
   useEffect(() => {
     console.log('fetching news');
-    fetchNews();
-  }, [language,locationEnglish]);
+    if (newsCache.current[locationEnglish.district]) {
+      setNewsData(newsCache.current[locationEnglish.district]);
+    } else {
+      fetchNews();
+    }
+  }, [language, locationEnglish]);
 
-  const fetchNews = async () => {
+  useEffect(() => {
+    console.log('isRefreshing', isRefreshing);
+  }, [isRefreshing]);
+
+  const fetchNews = async (isRefreshing = false) => {
     try {
-      setIsLoading(true);
+      if (!isRefreshing) {
+        setIsLoading(true);
+      }
       const response = await latest({
         country: 'in',
         language: language,
-        q: locationEnglish.district,    
+        q: locationEnglish.district,
         //category: 'business',
       });
       console.log('response', response);
+      newsCache.current = {
+        ...newsCache.current,
+        [locationEnglish.district]: response.results,
+      };
       setNewsData(response.results);
       setIsLoading(false);
       if (!didFethched) {
         setDidFetched(true);
+      }
+      if (isRefreshing) {
+        setIsRefreshing(false);
       }
     } catch (error) {
       console.log('error', error);
@@ -46,11 +71,9 @@ const NewsFeedScreen = ({ navigation }) => {
   };
 
   const handleNewsPress = news => {
-    console.log('description', news.description);
+    console.log('news', news);
     navigation.navigate('NewsDisplay', {
-      image: news.image_url,
-      title: news.title,
-      description: news.description,
+      news,
     });
   };
 
@@ -81,6 +104,19 @@ const NewsFeedScreen = ({ navigation }) => {
           ListHeaderComponent={ListHeaderComponent}
           showsVerticalScrollIndicator={false}
           contentContainerStyle={styles.listContainer}
+          refreshControl={
+            <RefreshControl
+              refreshing={isRefreshing}
+              onRefresh={() => {
+                setIsRefreshing(true);
+                fetchNews(true);
+              }}
+              colors={['#FFD600']}
+              progressBackgroundColor="#fff"
+              tintColor="#FFD600"
+              title="Pull to refresh"
+            />
+          }
         />
       ) : (
         <>
