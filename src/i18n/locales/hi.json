@@ -16,5 +16,6 @@
   "no_user_details_found": "कोई उपयोगकर्ता विवरण नहीं मिला",
   "failed_to_fetch_user_details": "उपयोगकर्ता विवरण प्राप्त करने में विफल",
   "network_error_occurred": "नेटवर्क त्रुटि हुई",
-  "not_available": "उपलब्ध नहीं है"
+  "not_available": "उपलब्ध नहीं है",
+  "no_new_news_found": "कोई नई खबर नहीं मिली"
 } 

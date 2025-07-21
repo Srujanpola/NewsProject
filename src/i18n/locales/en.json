@@ -16,5 +16,6 @@
   "no_user_details_found": "No user details found",
   "failed_to_fetch_user_details": "Failed to fetch user details",
   "network_error_occurred": "Network error occurred",
-  "not_available": "Not available"
+  "not_available": "Not available",
+  "no_new_news_found": "No new news found"
 }

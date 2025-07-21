@@ -34,6 +34,7 @@ class AppMngr {
 
   async userDetails() {
     try {
+      console.log('userdetails', await AsyncStorage.getItem('email'));
       const response = await axios.post(`${Server_URL}userdetails`, {
         email: await AsyncStorage.getItem('email'),
       });

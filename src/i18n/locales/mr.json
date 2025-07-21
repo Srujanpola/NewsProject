@@ -16,5 +16,6 @@
   "no_user_details_found": "कोणत्याही वापरकर्त्याचे तपशील सापडले नाहीत",
   "failed_to_fetch_user_details": "वापरकर्त्याचे तपशील मिळवण्यात अयशस्वी",
   "network_error_occurred": "नेटवर्क त्रुटी आली आहे",
-  "not_available": "उपलब्ध नाही"
+  "not_available": "उपलब्ध नाही",
+  "no_new_news_found": "कोणतीही नवीन बातमी सापडली नाही"
 } 

@@ -16,5 +16,6 @@
   "no_user_details_found": "କୌଣସି ବ୍ୟବହାରକାରୀର ବିବରଣୀ ମିଳିଲା ନାହିଁ",
   "failed_to_fetch_user_details": "ବ୍ୟବହାରକାରୀର ବିବରଣୀ ଆଣିବାରେ ବିଫଳ",
   "network_error_occurred": "ନେଟୱର୍କ ତ୍ରୁଟି ଘଟିଛି",
-  "not_available": "ଉପଲବ୍ଧ ନାହିଁ"
+  "not_available": "ଉପଲବ୍ଧ ନାହିଁ",
+  "no_new_news_found": "କ new ଣସି ନୂତନ ସମାଚାର ମିଳିଲା ନାହିଁ"
 } 

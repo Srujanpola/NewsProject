@@ -16,5 +16,6 @@
   "no_user_details_found": "ਕੋਈ ਉਪਭੋਗਤਾ ਦੇ ਵੇਰਵੇ ਨਹੀਂ ਮਿਲੇ",
   "failed_to_fetch_user_details": "ਉਪਭੋਗਤਾ ਦੇ ਵੇਰਵੇ ਲਿਆਉਣ ਵਿੱਚ ਅਸਫਲ",
   "network_error_occurred": "ਨੈਟਵਰਕ ਗਲਤੀ ਆਈ ਹੈ",
-  "not_available": "ਉਪਲਬਧ ਨਹੀਂ"
+  "not_available": "ਉਪਲਬਧ ਨਹੀਂ",
+  "no_new_news_found": "ਕੋਈ ਨਵੀਂ ਖ਼ਬਰ ਨਹੀਂ ਮਿਲੀ"
 } 

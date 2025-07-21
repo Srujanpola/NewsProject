@@ -16,5 +16,6 @@
   "no_user_details_found": "কোনো ব্যবহারকারীর বিবরণ পাওয়া যায়নি",
   "failed_to_fetch_user_details": "ব্যবহারকারীর বিবরণ আনতে ব্যর্থ",
   "network_error_occurred": "নেটওয়ার্ক ত্রুটি ঘটেছে",
-  "not_available": "উপলব্ধ নয়"
+  "not_available": "উপলব্ধ নয়",
+  "no_new_news_found": "কোনো নতুন সংবাদ পাওয়া যায়নি"
 } 

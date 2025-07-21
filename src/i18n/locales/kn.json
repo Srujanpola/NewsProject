@@ -16,5 +16,6 @@
   "no_user_details_found": "ಯಾವುದೇ ಬಳಕೆದಾರ ವಿವರಗಳು ಕಂಡುಬಂದಿಲ್ಲ",
   "failed_to_fetch_user_details": "ಬಳಕೆದಾರ ವಿವರಗಳನ್ನು ಪಡೆಯಲು ವಿಫಲ",
   "network_error_occurred": "ನೆಟ್‌ವರ್ಕ್ ದೋಷ ಸಂಭವಿಸಿದೆ",
-  "not_available": "ಲಭ್ಯವಿಲ್ಲ"
+  "not_available": "ಲಭ್ಯವಿಲ್ಲ",
+  "no_new_news_found": "ಹೊಸ ಸುದ್ದಿ ಕಂಡುಬಂದಿಲ್ಲ"
 } 

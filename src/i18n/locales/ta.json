@@ -16,5 +16,6 @@
   "no_user_details_found": "பயனர் விவரங்கள் எதுவும் கிடைக்கவில்லை",
   "failed_to_fetch_user_details": "பயனர் விவரங்களைப் பெற முடியவில்லை",
   "network_error_occurred": "பிணைய பிழை ஏற்பட்டது",
-  "not_available": "கிடைக்கவில்லை"
+  "not_available": "கிடைக்கவில்லை",
+  "no_new_news_found": "புதிய செய்தி எதுவும் இல்லை"
 } 

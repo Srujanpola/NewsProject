@@ -16,5 +16,6 @@
   "no_user_details_found": "Hmanraw chungchang a awm lo",
   "failed_to_fetch_user_details": "Hmanraw chungchang lak a harsat",
   "network_error_occurred": "Network error a thleng",
-  "not_available": "A awm lo"
+  "not_available": "A awm lo",
+  "no_new_news_found": "Thar chanchin a awm lo"
 } 

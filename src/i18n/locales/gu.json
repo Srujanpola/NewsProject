@@ -16,5 +16,6 @@
   "no_user_details_found": "કોઈ વપરાશકર્તાની વિગતો મળી નથી",
   "failed_to_fetch_user_details": "વપરાશકર્તાની વિગતો મેળવવામાં નિષ્ફળ",
   "network_error_occurred": "નેટવર્ક ભૂલ આવી છે",
-  "not_available": "ઉપલબ્ધ નથી"
+  "not_available": "ઉપલબ્ધ નથી",
+  "no_new_news_found": "કોઈ નવી સમાચાર મળ્યા નથી"
 } 

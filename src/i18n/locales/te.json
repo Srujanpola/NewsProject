@@ -16,5 +16,6 @@
   "no_user_details_found": "వినియోగదారు వివరాలు ఏవీ కనుగొనబడలేదు",
   "failed_to_fetch_user_details": "వినియోగదారు వివరాలను పొందడంలో విఫలం",
   "network_error_occurred": "నెట్‌వర్క్ లోపం సంభవించింది",
-  "not_available": "అందుబాటులో లేదు"
+  "not_available": "అందుబాటులో లేదు",
+  "no_new_news_found": "కొత్త వార్తలు లభించలేదు"
 } 

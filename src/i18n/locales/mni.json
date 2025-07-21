@@ -16,5 +16,6 @@
   "no_user_details_found": "ব্যবহারকারীর বিবরণ থোইজা",
   "failed_to_fetch_user_details": "ব্যবহারকারীর বিবরণ আনবাৎ অমসুং",
   "network_error_occurred": "নেটওয়ার্ক ত্রুটি সেংগা",
-  "not_available": "থোইজা"
+  "not_available": "থৈজা",
+  "no_new_news_found": "অদু নুপা খবর্না থোক্লে"
 } 
