@@ -5,8 +5,9 @@ const initialState = {
   name: '',
   email: '',
   phone: '',
-  location: '',
-  language: '',
+  locationRegional: '',
+  locationEnglish: '',
+  language: 'en',
 };
 
 const userSlice = createSlice({
@@ -15,7 +16,16 @@ const userSlice = createSlice({
   reducers: {
     setLanguage: (state, action) => {
       state.language = action.payload;
+      console.log('action.payload for language', action.payload);
       AsyncStorage.setItem('language', action.payload);
+    },
+    setLocationRegional: (state, action) => {
+      state.locationRegional = action.payload;
+      AsyncStorage.setItem('locationRegional', JSON.stringify(action.payload));
+    },
+    setLocationEnglish: (state, action) => {
+      state.locationEnglish = action.payload;
+      AsyncStorage.setItem('locationEnglish', JSON.stringify(action.payload));
     },
     loadLanguage: (state, action) => {
       state.language = action.payload;
@@ -24,5 +34,5 @@ const userSlice = createSlice({
   extraReducers: builder => {},
 });
 
-export const { setLanguage, loadLanguage } = userSlice.actions;
+export const { setLanguage, loadLanguage, setLocationRegional, setLocationEnglish } = userSlice.actions;
 export default userSlice.reducer;

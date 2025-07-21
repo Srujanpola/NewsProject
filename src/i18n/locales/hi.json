@@ -3,9 +3,18 @@
   "upload": "अपलोड",
   "notifications": "सूचनाएं",
   "language": "भाषा",
-  "select_language": "भाषा चुनें",
+  "select_location": "स्थान चुनें",
   "news_title": "आज की खबरें",
   "no_news_found": "समाचार उपलब्ध नहीं है",
   "news_label": "समाचार",
-  "account": "खाता"
+  "account": "खाता",
+  "email": "ईमेल",
+  "username": "उपयोगकर्ता नाम",
+  "account_created_on": "खाता बनाया गया",
+  "account_details": "खाता विवरण",
+  "loading_user_details": "उपयोगकर्ता विवरण लोड हो रहा है...",
+  "no_user_details_found": "कोई उपयोगकर्ता विवरण नहीं मिला",
+  "failed_to_fetch_user_details": "उपयोगकर्ता विवरण प्राप्त करने में विफल",
+  "network_error_occurred": "नेटवर्क त्रुटि हुई",
+  "not_available": "उपलब्ध नहीं है"
 } 

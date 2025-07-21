@@ -3,9 +3,18 @@
   "upload": "అప్‌లోడ్",
   "notifications": "నోటిఫికేషన్లు",
   "language": "భాష",
-  "select_language": "భాషను ఎంచుకోండి",
+  "select_location": "లొకేషన్ ఎంచుకోండి",
   "news_title": "నేటి వార్తలు",
   "no_news_found": "వార్తలు అందుబాటులో లేవు",
   "news_label": "వార్తలు",
-  "account": "ఖాతా"
+  "account": "ఖాతా",
+  "email": "ఇమెయిల్",
+  "username": "వినియోగదారు పేరు",
+  "account_created_on": "ఖాతా సృష్టించబడిన తేదీ",
+  "account_details": "ఖాతా వివరాలు",
+  "loading_user_details": "వినియోగదారు వివరాలు లోడ్ అవుతున్నాయి...",
+  "no_user_details_found": "వినియోగదారు వివరాలు ఏవీ కనుగొనబడలేదు",
+  "failed_to_fetch_user_details": "వినియోగదారు వివరాలను పొందడంలో విఫలం",
+  "network_error_occurred": "నెట్‌వర్క్ లోపం సంభవించింది",
+  "not_available": "అందుబాటులో లేదు"
 } 

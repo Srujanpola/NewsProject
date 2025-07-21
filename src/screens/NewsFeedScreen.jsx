@@ -15,14 +15,15 @@ const NewsFeedScreen = ({ navigation }) => {
   const { t } = useTranslation();
   const [newsData, setNewsData] = useState([]);
   const { latest } = useNewsDataApiClient(NEWS_API_KEY);
-  const language = useSelector(state => state.user.language);
+  const {language,locationEnglish} = useSelector(state => state.user);
+  const [didFethched, setDidFetched] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   console.log('language', language);
 
   useEffect(() => {
     console.log('fetching news');
     fetchNews();
-  }, [language]);
+  }, [language,locationEnglish]);
 
   const fetchNews = async () => {
     try {
@@ -30,11 +31,15 @@ const NewsFeedScreen = ({ navigation }) => {
       const response = await latest({
         country: 'in',
         language: language,
-        category: 'business',
+        q: locationEnglish.district,    
+        //category: 'business',
       });
       console.log('response', response);
       setNewsData(response.results);
       setIsLoading(false);
+      if (!didFethched) {
+        setDidFetched(true);
+      }
     } catch (error) {
       console.log('error', error);
     }
@@ -78,9 +83,13 @@ const NewsFeedScreen = ({ navigation }) => {
           contentContainerStyle={styles.listContainer}
         />
       ) : (
-        <View style={styles.titleContainer}>
-          <TextAtom style={styles.newsTitle}>{t('no_news_found')}</TextAtom>
-        </View>
+        <>
+          {didFethched && (
+            <View style={styles.titleContainer}>
+              <TextAtom style={styles.newsTitle}>{t('no_news_found')}</TextAtom>
+            </View>
+          )}
+        </>
       )}
       {isLoading && (
         <View style={styles.loadingContainer}>

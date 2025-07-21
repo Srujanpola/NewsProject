@@ -1,0 +1,20 @@
+{
+  "news": "বাতৰি",
+  "upload": "আপল'ড",
+  "notifications": "জাননীসমূহ",
+  "language": "ভাষা",
+  "select_location": "অৱস্থান বাছনি কৰক",
+  "news_title": "আজিৰ বাতৰি",
+  "no_news_found": "কোনো বাতৰি পোৱা নগ'ল",
+  "news_label": "বাতৰি",
+  "account": "হিচাপ",
+  "email": "ইমেইল",
+  "username": "ব্যৱহাৰকাৰীৰ নাম",
+  "account_created_on": "হিচাপ সৃষ্টি কৰা তাৰিখ",
+  "account_details": "হিচাপৰ তথ্য",
+  "loading_user_details": "ব্যৱহাৰকাৰীৰ তথ্য ল'ড কৰা হৈছে...",
+  "no_user_details_found": "কোনো ব্যৱহাৰকাৰীৰ তথ্য পোৱা নগ'ল",
+  "failed_to_fetch_user_details": "ব্যৱহাৰকাৰীৰ তথ্য আনিবলৈ ব্যৰ্থ",
+  "network_error_occurred": "নেটৱৰ্ক ত্ৰুটি ঘটিছে",
+  "not_available": "উপলব্ধ নহয়"
+} 

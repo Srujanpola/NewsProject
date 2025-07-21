@@ -1,0 +1,20 @@
+{
+  "news": "ସମାଚାର",
+  "upload": "ଅପଲୋଡ",
+  "notifications": "ବିଜ୍ଞପ୍ତି",
+  "language": "ଭାଷା",
+  "select_location": "ଅବସ୍ଥାନ ବାଛନ୍ତୁ",
+  "news_title": "ଆଜିର ସମାଚାର",
+  "no_news_found": "କୌଣସି ସମାଚାର ମିଳିଲା ନାହିଁ",
+  "news_label": "ସମାଚାର",
+  "account": "ଖାତା",
+  "email": "ଇମେଲ",
+  "username": "ବ୍ୟବହାରକାରୀର ନାମ",
+  "account_created_on": "ଖାତା ସୃଷ୍ଟି କରାଯାଇଥିବା ତାରିଖ",
+  "account_details": "ଖାତାର ବିବରଣୀ",
+  "loading_user_details": "ବ୍ୟବହାରକାରୀର ବିବରଣୀ ଲୋଡ ହୋଇଛି...",
+  "no_user_details_found": "କୌଣସି ବ୍ୟବହାରକାରୀର ବିବରଣୀ ମିଳିଲା ନାହିଁ",
+  "failed_to_fetch_user_details": "ବ୍ୟବହାରକାରୀର ବିବରଣୀ ଆଣିବାରେ ବିଫଳ",
+  "network_error_occurred": "ନେଟୱର୍କ ତ୍ରୁଟି ଘଟିଛି",
+  "not_available": "ଉପଲବ୍ଧ ନାହିଁ"
+} 

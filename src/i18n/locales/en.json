@@ -3,9 +3,18 @@
   "upload": "Upload",
   "notifications": "Notifications",
   "language": "Language",
-  "select_language": "Select Language",
+  "select_location": "Select Location",
   "news_title": "Today's News",
   "no_news_found": "No news available",
   "news_label": "News",
-  "account": "Account"
+  "account": "Account",
+  "email": "Email",
+  "username": "Username",
+  "account_created_on": "Account Created On",
+  "account_details": "Account Details",
+  "loading_user_details": "Loading user details...",
+  "no_user_details_found": "No user details found",
+  "failed_to_fetch_user_details": "Failed to fetch user details",
+  "network_error_occurred": "Network error occurred",
+  "not_available": "Not available"
 }

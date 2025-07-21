@@ -1,0 +1,20 @@
+{
+  "news": "बातम्या",
+  "upload": "अपलोड",
+  "notifications": "सूचना",
+  "language": "भाषा",
+  "select_location": "स्थान निवडा",
+  "news_title": "आजच्या बातम्या",
+  "no_news_found": "कोणत्याही बातम्या सापडल्या नाहीत",
+  "news_label": "बातम्या",
+  "account": "खाते",
+  "email": "ईमेल",
+  "username": "वापरकर्त्याचे नाव",
+  "account_created_on": "खाते तयार केल्याची तारीख",
+  "account_details": "खात्याचे तपशील",
+  "loading_user_details": "वापरकर्त्याचे तपशील लोड होत आहेत...",
+  "no_user_details_found": "कोणत्याही वापरकर्त्याचे तपशील सापडले नाहीत",
+  "failed_to_fetch_user_details": "वापरकर्त्याचे तपशील मिळवण्यात अयशस्वी",
+  "network_error_occurred": "नेटवर्क त्रुटी आली आहे",
+  "not_available": "उपलब्ध नाही"
+} 

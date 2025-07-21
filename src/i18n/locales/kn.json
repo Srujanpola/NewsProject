@@ -3,9 +3,18 @@
   "upload": "ಅಪ್‌ಲೋಡ್",
   "notifications": "ಅಧಿಸೂಚನೆಗಳು",
   "language": "ಭಾಷೆ",
-  "select_language": "ಭಾಷೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+  "select_location": "ಸ್ಥಳವನ್ನು ಆಯ್ಕೆಮಾಡಿ",
   "news_title": "ಇಂದಿನ ಸುದ್ದಿಗಳು",
   "no_news_found": "ಸುದ್ದಿಗಳು ಲಭ್ಯವಿಲ್ಲ",
   "news_label": "ಸುದ್ದಿಗಳು",
-  "account": "ಖಾತೆ"
+  "account": "ಖಾತೆ",
+  "email": "ಇಮೇಲ್",
+  "username": "ಬಳಕೆದಾರ ಹೆಸರು",
+  "account_created_on": "ಖಾತೆ ರಚಿಸಲಾದ ದಿನಾಂಕ",
+  "account_details": "ಖಾತೆ ವಿವರಗಳು",
+  "loading_user_details": "ಬಳಕೆದಾರ ವಿವರಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ...",
+  "no_user_details_found": "ಯಾವುದೇ ಬಳಕೆದಾರ ವಿವರಗಳು ಕಂಡುಬಂದಿಲ್ಲ",
+  "failed_to_fetch_user_details": "ಬಳಕೆದಾರ ವಿವರಗಳನ್ನು ಪಡೆಯಲು ವಿಫಲ",
+  "network_error_occurred": "ನೆಟ್‌ವರ್ಕ್ ದೋಷ ಸಂಭವಿಸಿದೆ",
+  "not_available": "ಲಭ್ಯವಿಲ್ಲ"
 } 

@@ -1,0 +1,20 @@
+{
+  "news": "খবর",
+  "upload": "আপলোড",
+  "notifications": "জাননী",
+  "language": "লোন",
+  "select_location": "স্থান সিলেক্ট",
+  "news_title": "নুমিৎকী খবর",
+  "no_news_found": "খবর থোইজা",
+  "news_label": "খবর",
+  "account": "অ্যাকাউন্ট",
+  "email": "ইমেইল",
+  "username": "ব্যবহারকারীর মীং",
+  "account_created_on": "অ্যাকাউন্ট সৃষ্টি নুমিৎ",
+  "account_details": "অ্যাকাউন্টর বিবরণ",
+  "loading_user_details": "ব্যবহারকারীর বিবরণ লোড অরীবা...",
+  "no_user_details_found": "ব্যবহারকারীর বিবরণ থোইজা",
+  "failed_to_fetch_user_details": "ব্যবহারকারীর বিবরণ আনবাৎ অমসুং",
+  "network_error_occurred": "নেটওয়ার্ক ত্রুটি সেংগা",
+  "not_available": "থোইজা"
+} 

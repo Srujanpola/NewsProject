@@ -3,9 +3,18 @@
   "upload": "பதிவேற்று",
   "notifications": "அறிவிப்புகள்",
   "language": "மொழி",
-  "select_language": "மொழியைத் தேர்ந்தெடுக்கவும்",
+  "select_location": "இடத்தைத் தேர்ந்தெடுக்கவும்",
   "news_title": "இன்றைய செய்திகள்",
   "no_news_found": "செய்திகள் கிடைக்கவில்லை",
   "news_label": "செய்திகள்",
-  "account": "கணக்கு"
+  "account": "கணக்கு",
+  "email": "மின்னஞ்சல்",
+  "username": "பயனர்பெயர்",
+  "account_created_on": "கணக்கு உருவாக்கப்பட்ட தேதி",
+  "account_details": "கணக்கு விவரங்கள்",
+  "loading_user_details": "பயனர் விவரங்கள் ஏற்றப்படுகின்றன...",
+  "no_user_details_found": "பயனர் விவரங்கள் எதுவும் கிடைக்கவில்லை",
+  "failed_to_fetch_user_details": "பயனர் விவரங்களைப் பெற முடியவில்லை",
+  "network_error_occurred": "பிணைய பிழை ஏற்பட்டது",
+  "not_available": "கிடைக்கவில்லை"
 } 

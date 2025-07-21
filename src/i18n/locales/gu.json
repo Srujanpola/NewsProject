@@ -1,0 +1,20 @@
+{
+  "news": "સમાચાર",
+  "upload": "અપલોડ",
+  "notifications": "સૂચનાઓ",
+  "language": "ભાષા",
+  "select_location": "સ્થાન પસંદ કરો",
+  "news_title": "આજના સમાચાર",
+  "no_news_found": "કોઈ સમાચાર મળ્યા નથી",
+  "news_label": "સમાચાર",
+  "account": "એકાઉન્ટ",
+  "email": "ઇમેઇલ",
+  "username": "વપરાશકર્તાનું નામ",
+  "account_created_on": "એકાઉન્ટ બનાવવાની તારીખ",
+  "account_details": "એકાઉન્ટની વિગતો",
+  "loading_user_details": "વપરાશકર્તાની વિગતો લોડ થઈ રહી છે...",
+  "no_user_details_found": "કોઈ વપરાશકર્તાની વિગતો મળી નથી",
+  "failed_to_fetch_user_details": "વપરાશકર્તાની વિગતો મેળવવામાં નિષ્ફળ",
+  "network_error_occurred": "નેટવર્ક ભૂલ આવી છે",
+  "not_available": "ઉપલબ્ધ નથી"
+} 

@@ -6,9 +6,8 @@ import NewsFeedScreen from '../screens/NewsFeedScreen';
 import AccountScreen from '../screens/AccountScreen';
 import BottomTabBarMolecule from '../molecules/BottomTabBarMolecule';
 import HeaderMolecule from '../molecules/HeaderMolecule';
-import PopupMolecule from '../molecules/PopupMolecule';
+import LangSelectMolecule from '../molecules/LangSelectMolecule';
 import { useSelector } from 'react-redux';
-import NewsDisplayScreen from '../screens/NewsDisplayScreen';
 
 const BottomTab = createBottomTabNavigator();
 
@@ -50,7 +49,7 @@ const BottomTabNavigator = () => {
         </BottomTab.Navigator>
       </View>
 
-      <PopupMolecule visible={isPopupVisible} onClose={handleClosePopup} />
+      <LangSelectMolecule visible={isPopupVisible} onClose={handleClosePopup} />
     </SafeAreaView>
   );
 };

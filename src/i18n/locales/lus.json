@@ -1,0 +1,20 @@
+{
+  "news": "Chanchin",
+  "upload": "Upload",
+  "notifications": "Hriattirna",
+  "language": "Tawng",
+  "select_location": "Location select rawh",
+  "news_title": "Vawiin chanchin",
+  "no_news_found": "Chanchin a awm lo",
+  "news_label": "Chanchin",
+  "account": "Account",
+  "email": "Email",
+  "username": "Hmanraw hming",
+  "account_created_on": "Account siam ni",
+  "account_details": "Account chungchang",
+  "loading_user_details": "Hmanraw chungchang load a ni...",
+  "no_user_details_found": "Hmanraw chungchang a awm lo",
+  "failed_to_fetch_user_details": "Hmanraw chungchang lak a harsat",
+  "network_error_occurred": "Network error a thleng",
+  "not_available": "A awm lo"
+} 

@@ -1,0 +1,20 @@
+{
+  "news": "সংবাদ",
+  "upload": "আপলোড",
+  "notifications": "বিজ্ঞপ্তি",
+  "language": "ভাষা",
+  "select_location": "অবস্থান নির্বাচন করুন",
+  "news_title": "আজকের সংবাদ",
+  "no_news_found": "কোনো সংবাদ পাওয়া যায়নি",
+  "news_label": "সংবাদ",
+  "account": "অ্যাকাউন্ট",
+  "email": "ইমেইল",
+  "username": "ব্যবহারকারীর নাম",
+  "account_created_on": "অ্যাকাউন্ট তৈরি করার তারিখ",
+  "account_details": "অ্যাকাউন্টের বিবরণ",
+  "loading_user_details": "ব্যবহারকারীর বিবরণ লোড হচ্ছে...",
+  "no_user_details_found": "কোনো ব্যবহারকারীর বিবরণ পাওয়া যায়নি",
+  "failed_to_fetch_user_details": "ব্যবহারকারীর বিবরণ আনতে ব্যর্থ",
+  "network_error_occurred": "নেটওয়ার্ক ত্রুটি ঘটেছে",
+  "not_available": "উপলব্ধ নয়"
+} 

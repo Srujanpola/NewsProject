@@ -10,8 +10,11 @@ import {
   UserCircleIcon,
 } from 'react-native-heroicons/outline';
 import { useTranslation } from 'react-i18next';
-const HeaderMolecule = ({ onLocationPress, onProfilePress }) => {
+import { useSelector } from 'react-redux';
+const HeaderMolecule = ({ onLocationPress }) => {
   const { t } = useTranslation();
+  const locationRegional = useSelector(state => state.user.locationRegional);
+
   return (
     <View style={styles.header}>
       <View style={styles.leftSection}>
@@ -20,7 +23,9 @@ const HeaderMolecule = ({ onLocationPress, onProfilePress }) => {
           onPress={onLocationPress}
         >
           <TextAtom style={styles.locationText}>
-            {t('select_language')}
+            {locationRegional
+              ? `${locationRegional.state}/${locationRegional.district}`
+              : t('select_location')}
           </TextAtom>
           <ChevronDownIcon color="#181A20" size={wp(4)} />
         </TouchableOpacity>
